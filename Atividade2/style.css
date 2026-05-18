@@ -1,0 +1,32 @@
+body {
+    background-color: rgb(168, 170, 237);
+}
+h1 {
+    color:  #EDE32B;
+    font-family: "Oleo Script", system-ui;
+    background-color:  rgb(124, 127, 192);
+    font-size: 45px;
+    text-shadow: 5px 3px 2px rgb(54, 17, 85);
+    box-shadow: 3px 3px 10px black;
+}
+h2 {
+    color: rgb(3, 100, 60);
+    text-shadow: 2px 1px 2px rgb(54, 17, 85);
+     font-size: 30px;
+}
+#texto-no-rodape {
+    color: rgb(54, 17, 85);
+    text-align: center;
+    font-size: 15px;
+}
+.insignias {
+    color: #ccc434;
+    font-size: 20px;
+    text-shadow: 2px 1px 2px rgb(54, 17, 85);
+}
+#tipagem {
+    color:  #EDE32B;
+    font-size: 20px;
+    text-shadow: 2px 1px 2px rgb(54, 17, 85);
+    border-style: solid rgb(54, 17, 85);
+}
