@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="PT-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -19,37 +19,36 @@
             </div>
         </div>
     </header>
+
     <div class="flex">
         <div class="center">
-            <h1>Bem-vindo ao meu portfólio!</h1>
+            <div class="grid">
+                <div class="foto">
+                    <img src="imagens/perfil_portifolio.jpeg" alt="Foto de perfil" width="200px" height="200px">
+                </div>
+                <div class="foto">
+                    <h1>Arthur Kauan</h1>
+                    <p>Aluno de Ciência da Computação e desenvolvedor fullstack junior</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="flex">
+        <div class="center">
+            <h1 tag="nome">Formação Acadêmica</h1>
             <p>Este é um espaço onde compartilho minhas experiências acadêmicas e profissionais.</p>
             <p>bla bla bla bla bla bla</p>
             <p>oi</p>
-            Este é um espaço onde compartilho minhas experiências acadêmicas e profissionais.</p>
-            <p>bla bla bla bla bla bla</p>
-            Este é um espaço onde compartilho minhas experiências acadêmicas e profissionais.</p>
-            <p>bla bla bla bla bla bla</p>
-            Este é um espaço onde compartilho minhas experiências acadêmicas e profissionais.</p>
-            <p>bla bla bla bla bla bla</p>
-            Este é um espaço onde compartilho minhas experiências acadêmicas e profissionais.</p>
-            <p>bla bla bla bla bla bla</p>
-            v
-            vv
-            vv
-            Este é um espaço onde compartilho minhas experiências acadêmicas e profissionais.</p>
-            <p>bla bla bla bla bla bla</p>
-            v
-            Este é um espaço onde compartilho minhas experiências acadêmicas e profissionais.</p>
-            <p>bla bla bla bla bla bla</p>Este é um espaço onde compartilho minhas experiências acadêmicas e profissionais.</p>
-            <p>bla bla bla bla bla bla</p>
-            Este é um espaço onde compartilho minhas experiências acadêmicas e profissionais.</p>
-            <p>bla bla bla bla bla bla</p>
-            Este é um espaço onde compartilho minhas experiências acadêmicas e profissionais.</p>
-            <p>bla bla bla bla bla bla</p>
-            v
-
         </div>
     </div>
+
+    <footer>
+        <div class="container">
+            <div class="item">
+                <p>Site desenvolvido e mantido por © 2026 Arthur Kauan.</p>
+            </div>
+        </div>
     
     
 </body>
@@ -93,7 +92,7 @@
         text-decoration: underline;
     }
     .center{
-        text-align: center;
+        text-align: justify;
         color: rgb(0, 0, 0);
         margin-top: 25px;
         width: 65%;
@@ -104,5 +103,25 @@
     .flex{
         display: flex;
         justify-content: center;
+    }
+    .grid{
+        display: grid;
+        grid-template-columns: 1fr 3fr;
+    }
+    .foto{
+        text-align: justify;
+    }
+    img{
+        border-radius: 12px;
+    }
+    footer{
+        background-color: #1f081daf;
+        color: white;
+        margin-top: 20px;
+        position: sticky;
+        bottom: 0;
+    }
+    #nome{
+        text-align: center;
     }
 </style>   
